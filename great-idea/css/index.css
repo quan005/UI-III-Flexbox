@@ -120,6 +120,10 @@ section.cta {
 
 .cta-contain {
   position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
   vertical-align: top;
   width: 45%;
   text-align: center;
@@ -128,7 +132,6 @@ section.cta {
 
 h1.cta-header {
 	font-size: 75px;
-	margin-top: 50px;
 }
 
 button {
